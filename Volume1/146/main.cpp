@@ -1,3 +1,6 @@
+//Author Stancioiu Nicu Razvan 
+//Problem: uva.onlinejudge.org/external/1/146.html
+//Description: ad-hoc (usage of c++ library algorithm)
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -5,6 +8,7 @@
 
 using namespace std;
 
+// We use the method next_permutation from the library algorithm
 int main()
 {
 	string s;

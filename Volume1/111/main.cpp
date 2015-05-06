@@ -1,6 +1,6 @@
-//problem History Grading (111) from uva.onlinejudge.org
-//@author Stancioiu Nicu Razvan 
-//Exercice of dynamic programming similar to LCS (Longest common subsequence)
+//Author Stancioiu Nicu Razvan 
+//Problem: uva.onlinejudge.org/external/1/111.html
+//Description: Exercice of dynamic programming similar to LCS (Longest common subsequence)
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -16,9 +16,8 @@ int v[N][N]={0};
 
 int main()
 {
-	int a;
+	int a,n;
 	string s;
-	int n;
 	cin>>n;
 	getline(cin,s);
 	getline(cin,s);

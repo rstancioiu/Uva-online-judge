@@ -1,3 +1,5 @@
+//Author Stancioiu Nicu Razvan 
+//Problem: uva.onlinejudge.org/external/2/200.html
 #include <iostream>
 #include <string>
 #include <vector>

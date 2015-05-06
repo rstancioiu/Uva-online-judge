@@ -1,3 +1,6 @@
+//Author Stancioiu Nicu Razvan 
+//Problem: uva.onlinejudge.org/external/1/156.html
+//Description: brute force algorithm
 #include <iostream>
 #include <string>
 #include <vector>
@@ -6,6 +9,7 @@
 
 using namespace std;
 
+// Method that returns if words a and b are anagrams
 bool checkAnagram(string a,string b)
 {
 	if(a.length()!=b.length())
@@ -35,6 +39,7 @@ bool checkAnagram(string a,string b)
 
 int main()
 {
+	// the dictionnary of words
 	map<string,int> dict;
 	map<string,int>::iterator it;
 	string s;
@@ -53,6 +58,7 @@ int main()
 		else
 			dict.insert(make_pair(s,0));
 	}
+	// we write all the words that don't have anagrams in the domain
 	for(it=dict.begin();it!=dict.end();++it)
 	{
 		if(it->second==0)

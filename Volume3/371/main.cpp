@@ -1,3 +1,5 @@
+//Author Stancioiu Nicu Razvan 
+//Problem: uva.onlinejudge.org/external/3/371.html
 #include <cstdio>
 
 using namespace std;

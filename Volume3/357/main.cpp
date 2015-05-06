@@ -1,3 +1,5 @@
+//Author Stancioiu Nicu Razvan 
+//Problem: uva.onlinejudge.org/external/3/357.html
 #include <cstdio>
 #define N 30004
 

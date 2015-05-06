@@ -1,3 +1,6 @@
+//Author Stancioiu Nicu Razvan 
+//Problem: uva.onlinejudge.org/external/1/120.html
+//Description: ad-hoc
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -8,6 +11,7 @@ using namespace std;
 vector<int> pan;
 int size,solved;
 
+//finding the pancake with the biggest diameter
 vector<int>::iterator max()
 {
 	vector<int>::iterator it;
