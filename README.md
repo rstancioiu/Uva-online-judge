@@ -1,5 +1,5 @@
 # Problems solved from uva online judge
-This repository contains contains my input to a number of the problems found on the following website:
+This repository contains my solutions to a number of the problems found on the following website:
     https://uva.onlinejudge.org . 
 While some exercices might be easier, some are more challenging. 
 

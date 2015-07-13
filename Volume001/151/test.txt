@@ -1,2 +1,6 @@
+Input:
 17
 0
+
+Output:
+7
