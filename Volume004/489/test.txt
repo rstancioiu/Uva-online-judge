@@ -1,3 +1,4 @@
+Sample Input:
 1
 cheese
 chese
@@ -8,3 +9,11 @@ abcdefg
 cheese
 abcdefgij
 -1
+
+Sample Output:
+Round 1
+You win.
+Round 2
+You chickened out.
+Round 3
+You lose.

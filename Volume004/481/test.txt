@@ -1,8 +1,17 @@
+Sample Input:
 -7
 10
 9
 2
 3
 8
-7
+8
 6
+
+Sample Output:
+4
+-
+-7
+2
+3
+8

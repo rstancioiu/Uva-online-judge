@@ -1,8 +1,9 @@
 Sample Input:
 300 + 3
 9999999999999999999999 + 11
-Sample Output
-300 + 3 \\
+
+Sample Output:
+300 + 3
 9999999999999999999999 + 11
 first number too big
 result too big

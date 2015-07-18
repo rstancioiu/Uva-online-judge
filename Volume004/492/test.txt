@@ -1,2 +1,5 @@
+Sample Input:
 This is the input.
-This is the input.
+
+Sample Output:
+hisTay isay hetay inputay.

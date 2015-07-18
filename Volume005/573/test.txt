@@ -1,7 +1,16 @@
-2 2 2 20
-8 6 5 30
-97 56 3 10
-56 3 1 5
-85 26 19 10
-59 17 13 11
-97 73 23 17
+Sample Input:
+6 3 1 10
+10 2 1 50
+50 5 3 14
+50 6 4 1
+50 6 3 1
+1 1 1 1
+0 0 0 0
+
+Sample Output:
+success on day 3
+failure on day 4
+failure on day 7
+failure on day 68
+success on day 20
+failure on day 2

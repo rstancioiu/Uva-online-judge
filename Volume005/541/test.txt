@@ -1,3 +1,4 @@
+Sample Input:
 4
 1 0 1 0
 0 0 0 0
@@ -14,3 +15,8 @@
 1 1 1 1
 0 1 0 1
 0
+
+Sample Output:
+OK
+Change bit (2,3)
+Corrupt

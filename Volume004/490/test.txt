@@ -1,2 +1,31 @@
+Sample Input:
 Rene Decartes once said,
 "I think, therefore I am."
+
+Sample Output:
+"R
+Ie
+ n
+te
+h 
+iD
+ne
+kc
+,a
+ r
+tt
+he
+es
+r
+eo
+fn
+oc
+re
+e
+ s
+Ia
+ i
+ad
+m,
+.
+"

@@ -1,0 +1,10 @@
+Sample Input:
+4 2
+10 5
+49 6
+0 0
+
+Sample Output:
+6
+252
+13983816
