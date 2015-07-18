@@ -1,5 +1,4 @@
-2
-
+Sample Input:
 dip
 lip
 mad
@@ -21,17 +20,6 @@ stock
 spice stock
 may pod
 
-dip
-lip
-*
-dip lip
-
-dip
-lip
-*
-dip lip
-
-dip
-lip
-*
-dip lip
+Sample Output:
+spice stock 4
+may pod 3
