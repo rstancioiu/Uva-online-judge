@@ -13,6 +13,7 @@ using namespace std;
 int t,n,m;
 int maze[N][N];
 int distances[N][N];
+int visited[N][N];
 
 typedef pair<int,int> ii;
 typedef pair<int,ii> iii;
@@ -54,9 +55,65 @@ void DijkstraSet(int i,int j)
 	}
 }
 
+// Time limit excedeed solution with STL QUEUE
+void DijkstraQueue(int i,int j)
+{
+	for(int i=0;i<n;++i)
+	{
+		for(int j=0;j<m;++j)
+		{
+			visited[i][j]=0;
+		}
+	}
+	int value,t1,t2;
+	queue<ii> Q;
+	Q.push(ii(i,j));
+	distances[i][j]=maze[i][j];
+	while(!Q.empty())
+	{
+		t1= Q.front().first;
+		t2= Q.front().second;
+		value = distances[t1][t2];
+		visited[t1][t2]=0;
+		Q.pop();
+		if(t1>0 && !visited[t1-1][t2] && distances[t1-1][t2]>value + maze[t1-1][t2])
+		{
+			distances[t1-1][t2] = value + maze[t1-1][t2];
+			Q.push(ii(t1-1,t2));
+			visited[t1-1][t2]=1;
+		}
+		if(t1<n-1 && !visited[t1+1][t2] && distances[t1+1][t2] > value + maze[t1+1][t2])
+		{
+			distances[t1+1][t2] = value + maze[t1+1][t2];
+			Q.push(ii(t1+1,t2));	
+			visited[t1+1][t2]=1;	
+		}
+		if(t2>0 && !visited[t1][t2-1] && distances[t1][t2-1] > value +maze[t1][t2-1])
+		{
+			distances[t1][t2-1] = value +maze[t1][t2-1];
+			Q.push(ii(t1,t2-1));
+			visited[t1][t2-1]=1;
+		}
+		if(t2<m-1 &&!visited[t1][t2+1] && distances[t1][t2+1] > value +maze[t1][t2+1])
+		{
+			distances[t1][t2+1] = value + maze[t1][t2+1];
+			Q.push(ii(t1,t2+1));
+			visited[t1][t2+1]=1;		
+		}
+	}
+}
+
+
 // Solution with STL Priority Queue Accepted with 2.272
 void DijkstraPriorityQueue(int i,int j)
 {
+	for(int i=0;i<n;++i)
+	{
+		for(int j=0;j<m;++j)
+		{
+			visited[i][j]=0;
+		}
+	}
 	int value,t1,t2;
 	priority_queue<iii, vector<iii>, greater<iii> > Q;
 	Q.push(iii(maze[i][j],ii(i,j)));
@@ -66,26 +123,31 @@ void DijkstraPriorityQueue(int i,int j)
 		value = Q.top().first;
 		t1= Q.top().second.first;
 		t2= Q.top().second.second;
+		visited[t1][t2]=0;
 		Q.pop();
-		if(t1>0 && distances[t1-1][t2]>value + maze[t1-1][t2])
+		if(t1>0 && !visited[t1-1][t2] && distances[t1-1][t2]>value + maze[t1-1][t2])
 		{
 			distances[t1-1][t2] = value + maze[t1-1][t2];
 			Q.push(iii(distances[t1-1][t2],ii(t1-1,t2)));
+			visited[t1-1][t2]=1;
 		}
-		if(t1<n-1 && distances[t1+1][t2] > value + maze[t1+1][t2])
+		if(t1<n-1 && !visited[t1+1][t2] && distances[t1+1][t2] > value + maze[t1+1][t2])
 		{
 			distances[t1+1][t2] = value + maze[t1+1][t2];
-			Q.push(iii(distances[t1+1][t2],ii(t1+1,t2)));		
+			Q.push(iii(distances[t1+1][t2],ii(t1+1,t2)));	
+			visited[t1+1][t2]=1;	
 		}
-		if(t2>0 && distances[t1][t2-1] > value +maze[t1][t2-1])
+		if(t2>0 && !visited[t1][t2-1] && distances[t1][t2-1] > value +maze[t1][t2-1])
 		{
 			distances[t1][t2-1] = value +maze[t1][t2-1];
 			Q.push(iii(distances[t1][t2-1],ii(t1,t2-1)));
+			visited[t1][t2-1]=1;
 		}
-		if(t2<m-1 && distances[t1][t2+1] > value +maze[t1][t2+1])
+		if(t2<m-1 &&!visited[t1][t2+1] && distances[t1][t2+1] > value +maze[t1][t2+1])
 		{
 			distances[t1][t2+1] = value + maze[t1][t2+1];
-			Q.push(iii(distances[t1][t2+1],ii(t1,t2+1)));		
+			Q.push(iii(distances[t1][t2+1],ii(t1,t2+1)));
+			visited[t1][t2+1]=1;		
 		}
 	}
 }
