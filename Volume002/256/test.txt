@@ -1,8 +1,11 @@
 Sample input:
-3
-4
-0
+2
+2
 
 Sample output:
-5
-30
+00
+01
+81
+00
+01
+81

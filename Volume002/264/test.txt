@@ -1,15 +1,9 @@
-1
-2
+Sample input:
 3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
 14
-15
+7
+
+Sample output:
+TERM 3 IS 2/1
+TERM 14 IS 2/4
+TERM 7 IS 1/4

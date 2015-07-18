@@ -1,6 +1,10 @@
+Sample input:
 XWY
 ZX
 ZXY
 ZXW
 YWWX
 #
+
+Sample Output:
+XZYW
