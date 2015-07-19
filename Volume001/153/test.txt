@@ -1,0 +1,10 @@
+Sample input:
+bacaa
+abc
+cba
+#
+
+Sample output:
+        15
+         1
+         6
