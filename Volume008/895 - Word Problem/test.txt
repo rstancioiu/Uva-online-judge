@@ -1,0 +1,18 @@
+Sample Input:
+ant
+bee
+at
+dog
+ewe
+fly
+gnu
+#
+b e w
+b b e e w w
+t a n  u g d
+#
+
+Sample Output:
+0
+2
+3
