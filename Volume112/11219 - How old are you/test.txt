@@ -1,0 +1,16 @@
+Sample Input:
+4
+01/01/2007
+10/02/2007
+09/06/2007
+28/02/1871
+12/11/2007
+01/01/1984
+28/02/2005
+29/02/2004
+
+Sample Output:
+Case #1: Invalid birth date
+Case #2: Check birth date
+Case #3: 23
+Case #4: 0

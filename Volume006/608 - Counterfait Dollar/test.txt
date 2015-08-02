@@ -1,0 +1,10 @@
+Sample Input:
+
+1
+ABCD EFGH even
+ABCI EFJK up
+ABIJ EFGH even
+
+Sample Output:
+
+K is the counterfeit coin and it is light.

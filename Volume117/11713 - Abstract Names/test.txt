@@ -1,0 +1,19 @@
+Sample Input:
+5
+pele
+polo
+pele
+pola
+ronaldo
+ronaldino
+pele
+pelet
+pele
+bele
+
+Sample Output:
+Yes
+Yes
+No
+No
+No
