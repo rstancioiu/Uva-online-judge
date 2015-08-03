@@ -1,0 +1,9 @@
+Sample Input:
+20 5
+100 10
+200 15
+
+Sample Output:
+5
+14
+23

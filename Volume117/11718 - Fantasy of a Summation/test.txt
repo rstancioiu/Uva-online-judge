@@ -1,0 +1,10 @@
+Sample Input:
+2
+3 1 35000
+1 2 3
+2 3 35000
+1 2
+
+Sample Output:
+Case 1: 6
+Case 2: 36

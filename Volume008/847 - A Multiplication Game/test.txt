@@ -1,0 +1,9 @@
+Sample input:
+162
+17
+34012226
+
+Sample Output:
+Stan wins.
+Ollie wins.
+Stan wins.
