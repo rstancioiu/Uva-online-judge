@@ -12,26 +12,26 @@ int main()
     cin>>n;
     for(int i=0;i<n;++i)
     {
-    	cin>>tab[i];
-    	tab[i]+=i;
+        cin>>tab[i];
+        tab[i]+=i;
     }
     sort(tab,tab+n);
     for(int i=0;i<n;++i)
     {
-    	tab[i]-=i;
+        tab[i]-=i;
     }
     for(int i=1;i<n;++i)
-    {	
-    	if(tab[i]<tab[i-1])
-    	{
-    		cout<<":("<<endl;
-    		return 0;
-    	}
+    {   
+        if(tab[i]<tab[i-1])
+        {
+            cout<<":("<<endl;
+            return 0;
+        }
     }
     cout<<tab[0];
     for(int i=1;i<n;++i)
     {
-    	cout<<" "<<tab[i];
+        cout<<" "<<tab[i];
     }
     cout<<endl;
     return 0;
