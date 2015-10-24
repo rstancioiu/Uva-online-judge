@@ -62,7 +62,7 @@ int main()
 			n-=p;	
 		}
 		if(state)
-		ans+=a[n];
+			ans+=a[n];
 		else
 			ans+=n+1-a[n];
 		cout<<ans<<endl;
