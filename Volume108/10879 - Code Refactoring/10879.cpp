@@ -10,6 +10,7 @@ char p[N/8];
 
 void GeneratePrimes()
 {
+	primes.push_back(2);
 	int i;
 	for(i=1;((i*i)<<1)+(i<<1)<N;++i)
 	{
@@ -36,7 +37,6 @@ int main()
 {
 	vector<int>::iterator it;
 	int t,k,a,b,c,d;
-	primes.push_back(2);
 	GeneratePrimes();
 	scanf("%d",&t);
 	for(int i=1;i<=t;++i)
