@@ -1,3 +1,5 @@
+// Author: Stancioiu Nicu Razvan
+// Problem: http://uva.onlinejudge.org/external/1/122.html
 #include <bits/stdc++.h>
 
 using namespace std;

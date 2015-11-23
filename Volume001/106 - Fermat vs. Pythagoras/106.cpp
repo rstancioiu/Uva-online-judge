@@ -1,3 +1,7 @@
+// Author: Stancioiu Nicu Razvan
+// Problem: http://uva.onlinejudge.org/external/1/106.html
+// Description: Maths
+
 #include <bits/stdc++.h>
 #define N 1000010
 

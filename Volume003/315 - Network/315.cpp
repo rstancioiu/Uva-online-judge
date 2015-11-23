@@ -1,3 +1,6 @@
+// Author: Stancioiu Nicu Razvan
+// Problem: http://uva.onlinejudge.org/external/3/315.html
+// Description: find number of bridges in a graph
 #include <bits/stdc++.h>
 #define N 100000
 

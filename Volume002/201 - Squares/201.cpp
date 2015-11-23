@@ -1,3 +1,5 @@
+// Author: Stancioiu Nicu Razvan
+// Problem: http://uva.onlinejudge.org/external/2/201.html
 #include <bits/stdc++.h>
 #define N 16
 #define D 2

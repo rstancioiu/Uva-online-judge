@@ -1,3 +1,6 @@
+// Author: Stancioiu Nicu Razvan
+// Problem: http://uva.onlinejudge.org/external/101/10171.html
+// Description: fast shortest path algorithm (Dijkstra algorithm can be used as well)
 #include <bits/stdc++.h>
 #define N 26
 

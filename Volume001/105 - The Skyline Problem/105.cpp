@@ -1,5 +1,6 @@
 // Author: Stancioiu Nicu Razvan
 // Problem: http://uva.onlinejudge.org/external/1/105.html
+// Description: ad-hoc
 #include <cstdio>
 #define N 10002
 

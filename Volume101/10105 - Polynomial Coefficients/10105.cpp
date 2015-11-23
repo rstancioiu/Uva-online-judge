@@ -1,3 +1,6 @@
+// Author: Stancioiu Nicu Razvan
+// Problem: http://uva.onlinejudge.org/external/101/10105.html
+// Description: dynamic programming / maths 
 #include <bits/stdc++.h>
 #define N 16
 

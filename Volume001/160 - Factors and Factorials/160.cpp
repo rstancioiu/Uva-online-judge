@@ -1,6 +1,5 @@
 //Author Stancioiu Nicu Razvan 
 //Problem: uva.onlinejudge.org/external/1/160.html
-//Description: 
 #include <cstdio>
 #include <map>
 #include <utility>
@@ -11,6 +10,7 @@ using namespace std;
 map<int,int> primes;
 char v[N];
 
+// fast algorithm to generate prime numbers till N 
 void GeneratePrimes()
 {
 	int i,j,k;

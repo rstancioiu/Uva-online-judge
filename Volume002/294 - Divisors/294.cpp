@@ -1,5 +1,6 @@
 // Author: Stancioiu Nicu Razvan
 // Problem: http://uva.onlinejudge.org/external/1/294.html
+// Description: maths
 #include <cstdio>
 #include <cmath>
 #define N 100000

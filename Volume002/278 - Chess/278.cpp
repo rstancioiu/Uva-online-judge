@@ -1,3 +1,6 @@
+// Author: Stancioiu Nicu Razvan
+// Problem: http://uva.onlinejudge.org/external/2/278.html
+// Description: games
 #include <bits/stdc++.h>
 
 using namespace std;
